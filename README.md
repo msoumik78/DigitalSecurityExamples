@@ -3,7 +3,7 @@ This project gives a simple overview of the following 2 fundamental aspects of d
 * Hashing
 * Encryption
 
-Please refer to my blog here [Soumik's blog](https://msoumik78.github.io/java/2019/05/10/java-8-features.html)
+Please refer to my blog here [Soumik's blog on hashing and encryption](https://msoumik78.github.io/digitalsecurity/2019/03/15/basics-of-digital-security.html)
 
 
 ### Dependencies
