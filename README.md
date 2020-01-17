@@ -24,5 +24,5 @@ The below command runs the hashing program with 3 inputs (note that the program 
 The below command runs the symmetric encryption program with 1 input which is the content to be encrypted ("password" in this case)          
 `mvn exec:java -Dexec.mainClass="encryption.SymmetricEncryptionDemonstration" -Dexec.args="password"`
 
-The below command runs the symmetric encryption program with various inputs (note that the program expects 3 inputs - where the first one is the input which will be hashed, second is the hashing algorithm name and third is true/false depending on whether you want to salt the hashing to make it stronger )     
-`mvn exec:java -Dexec.mainClass="hashing.HashingDemonstrations"  -Dexec.args="password SHA-256 true" " `
+The below command runs the symmetric encryption program with 1 input which is the content to be encrypted ("password" in this case)    
+`mvn exec:java -Dexec.mainClass="encryption.AsymmetricEncryptionDemonstration" -Dexec.args="password" `
