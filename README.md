@@ -1,13 +1,9 @@
-# Java 8 Features
-This project gives a simple overview of features in Java8 and it is mainly to help my students who are new to Java8.
-This repository contains some simple programs divided into 4 different packages to demonstrate the following 4 new features introduced in Java 8 :
-* Default and static methods in Interfaces
-* Optional
-* Lambdas
-* Streams
+# Hashing and Encryption
+This project gives a simple overview of the following 2 fundamental aspects of digital Security
+* Hashing
+* Encryption
 
-
-Please also refer to my blog here [Soumik's blog](https://msoumik78.github.io/java/2019/05/10/java-8-features.html)
+Please refer to my blog here [Soumik's blog](https://msoumik78.github.io/java/2019/05/10/java-8-features.html)
 
 
 ### Dependencies
@@ -21,15 +17,12 @@ Please also refer to my blog here [Soumik's blog](https://msoumik78.github.io/ja
 
 ### Running program
 
-The below command runs the program related to default and static methods in Java 8 interfaces     
-`mvn exec:java -Dexec.mainClass="defaultAndStaticMethods.VehicleImpl" `
+The below command runs the hashing program with various inputs (note that the program expects 3 inputs - where the first one is the input which will be hashed, second is the hashing algorithm name and third is true/false depending on whether you want to salt the hashing to make it stronger )     
+`mvn exec:java -Dexec.mainClass="hashing.HashingDemonstrations"  -Dexec.args="password SHA-256 true" " `
 
-The below command runs the program related to Lambdas in Java 8      
-`mvn exec:java -Dexec.mainClass="lambdas.Java8LambdasDemo" `
 
-The below command runs the program related to Lambdas in Java 8     
-`mvn exec:java -Dexec.mainClass="optional.Java8Optional" `
+The below command runs the symmetric encryption program with various inputs (note that the program expects 3 inputs - where the first one is the input which will be hashed, second is the hashing algorithm name and third is true/false depending on whether you want to salt the hashing to make it stronger )     
+`mvn exec:java -Dexec.mainClass="hashing.HashingDemonstrations"  -Dexec.args="password SHA-256 true" " `
 
-The below command runs the program related to Lambdas in Java 8      
-`mvn exec:java -Dexec.mainClass="streams.Java8Streams" `
-
+The below command runs the symmetric encryption program with various inputs (note that the program expects 3 inputs - where the first one is the input which will be hashed, second is the hashing algorithm name and third is true/false depending on whether you want to salt the hashing to make it stronger )     
+`mvn exec:java -Dexec.mainClass="hashing.HashingDemonstrations"  -Dexec.args="password SHA-256 true" " `
