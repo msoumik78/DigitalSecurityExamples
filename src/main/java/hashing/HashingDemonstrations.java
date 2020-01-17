@@ -1,4 +1,4 @@
-package org.experiments;
+package hashing;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -14,9 +14,6 @@ public class HashingDemonstrations  {
     // password SHA-256 true
     // password SHA-512 false
     public static void main(String[] args) throws Exception {
-        if (null == args[0]) throw new Exception("Please provide an input content as the first argument");
-        if (null == args[1]) throw new Exception("Please provide an algorithm name as the second argument. Normally it is MD5 or SHA-1 or SHA-256 or SHA-384 or SHA-512");
-        if (null == args[2]) throw new Exception("Please provide your input on whether you want to add salt or not, if salted - then use yes else use no");
 
         String inputContent =args[0];
         String hashingAlgorithmName= args[1];

@@ -1,4 +1,4 @@
-package org.experiments;
+package encryption;
 
 import javax.crypto.Cipher;
 import java.security.KeyPair;
